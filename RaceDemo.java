@@ -19,8 +19,8 @@ public class RaceDemo {
                 + OPS_PER_THREAD + " times");
         System.out.println("The correct total is " + EXPECTED + " in every round\n");
 
-        System.out.println(" round  |   actual total  | expected |   lost");
-        System.out.println("--------+-----------------+----------+---------");
+        System.out.println(" round  |   actual total  | bexpected |   lost");
+        System.out.println("--------+-----------------+-----------+---------");
 
         int wrongRounds = 0;
         int worst = 0;
